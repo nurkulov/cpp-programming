@@ -9,7 +9,7 @@
 int main() {
     
     std::ifstream in_file;
-    in_file.open("../cpp-practice-projects/responses.txt");
+    in_file.open("../practice-projects/responses.txt");
     
     if(!in_file) {
         std::cerr << "Problem opening file" << std::endl;
